@@ -1,0 +1,147 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(calc(45deg - 180deg), rgb(65, 20, 20), rgb(40, 0, 114));
+}
+nav{
+    height: fit-content;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+}
+nav .logo-span{
+    float: left;
+}
+nav span .logo{
+    height: 60px;
+    width: 150px;
+    padding: 10px 10px 10% 20px;
+}
+nav .nav-menus ul{
+    float: right;
+    list-style-type: none;
+}
+nav .nav-menus ul a{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+nav .nav-menus ul a li{
+    display: inline-block;
+    padding: 35px 40px;
+}
+nav .nav-menus ul a li:hover{
+    color: red;
+}
+nav .nav-menus ul a .hidden-nav-options{
+    display: none;
+}
+
+.gapper{
+    width: 100%;
+    height: 100px;
+}
+
+.recent-news{
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    width: 70%;
+    height: fit-content;
+    /* background: linear-gradient(45deg, orangered, black); */
+    margin: auto;
+    border-radius: 15px;
+    animation: recent-news-animation 10s linear infinite;
+}
+
+@keyframes recent-news-animation {
+    0%, 50%,100%{
+        letter-spacing: 10px;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+    }   
+    25%,75%{
+        letter-spacing: 3px;
+        background-color: grey;
+        color: black;
+        border: 2px solid black;
+    } 
+}
+
+main{
+    height: 450px;
+    width: 75%;
+    padding: 50px 5%;
+    background: linear-gradient(45deg, rgb(104, 0, 0), rgb(87, 0, 185));
+    border-radius: 10px;
+    margin-left: auto;
+    margin: 30px auto;
+    transition: ease-in 0.5s ;
+}
+main .recent-headding{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+main .main-image img{
+    height: 300px;
+    width: 300px;
+    float: left;
+    padding: 20px;
+}
+main .main-content{
+    height: fit-content;
+    width: calc(100% - 40px - 300px - 10%);
+    padding: 5%;
+    float: left;
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    height: fit-content;
+    width: 100%;
+    background-color: black;
+}
+footer .footer-1{
+    width: 23%;
+    padding: 3% 5%;
+    display: inline-block;
+    /* background-color: turquoise; */
+}
+footer .footer-2{
+    width: 23%;
+    padding: 3% 5%;
+    display: inline-block;
+    /* background-color: turquoise; */
+}
+footer .footer-3{
+    width: 23%;
+    padding: 3% 5%;
+    display: inline-block;
+    /* background-color: turquoise; */
+}
+footer .footer-1 ul, footer .footer-2 ul, footer .footer-3 ul{
+    list-style-type: none;
+    padding: 5%;
+}
+footer .footer-1 ul li, footer .footer-2 ul li, footer .footer-3 ul li{
+    padding: 10px 5px;
+}
+footer .footer-1 ul li a, footer .footer-2 ul li a, footer .footer-3 ul li a{
+    color: white;
+}
+footer .footer-1 ul li a:hover, footer .footer-2 ul li a:hover, footer .footer-3 ul li a:hover{
+    color: red;
+}

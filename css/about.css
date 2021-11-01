@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(calc(45deg - 180deg), rgb(65, 20, 20, 0.5), rgb(40, 0, 114,0.5));
+}
+nav{
+    height: fit-content;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+}
+nav .logo-span{
+    float: left;
+}
+nav span .logo{
+    height: 60px;
+    width: 150px;
+    padding: 10px 10px 10% 20px;
+}
+nav .nav-menus ul{
+    float: right;
+    list-style-type: none;
+}
+nav .nav-menus ul a{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+nav .nav-menus ul a li{
+    display: inline-block;
+    padding: 35px 40px;
+}
+nav .nav-menus ul a li:hover{
+    color: red;
+}
+nav .nav-menus ul a .hidden-nav-options{
+    display: none;
+}
+
+.gapper{
+    width: 100%;
+    height: 100px;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+    padding: 30px 0px;
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: black;
+    border-radius: 15px;
+    letter-spacing: 5px;
+}
+
+main{
+    height: fit-content;
+    width: 70%;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.096);
+    margin: auto;
+    border-radius: 30px;
+    background: linear-gradient(calc(45deg - 180deg), rgb(65, 20, 20), rgb(40, 0, 114));
+}
+main img{
+    height: 500px;
+    width: 500px;
+    display: block;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: solid white 2px;
+}
+main p{
+    display: block;
+    color: white;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+}
+
+footer{
+    height: fit-content;
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+}
+footer .footer-1{
+    width: 23%;
+    padding: 3% 5%;
+    display: inline-block;
+    /* background-color: turquoise; */
+}
+footer .footer-2{
+    width: 23%;
+    padding: 3% 5%;
+    display: inline-block;
+    /* background-color: turquoise; */
+}
+footer .footer-3{
+    width: 23%;
+    padding: 3% 5%;
+    display: inline-block;
+    /* background-color: turquoise; */
+}
+footer .footer-1 ul, footer .footer-2 ul, footer .footer-3 ul{
+    list-style-type: none;
+    padding: 5%;
+}
+footer .footer-1 ul li, footer .footer-2 ul li, footer .footer-3 ul li{
+    padding: 10px 5px;
+}
+footer .footer-1 ul li a, footer .footer-2 ul li a, footer .footer-3 ul li a{
+    color: white;
+}
+footer .footer-1 ul li a:hover, footer .footer-2 ul li a:hover, footer .footer-3 ul li a:hover{
+    color: red;
+}
